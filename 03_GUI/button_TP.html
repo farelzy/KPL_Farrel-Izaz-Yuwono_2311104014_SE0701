@@ -1,0 +1,94 @@
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input, Button, dan Output</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            height: 10%;
+            width: 40%;
+            background: white;
+            padding: 3%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        input {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            color: white;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .output {
+            height: 25%;
+            width: 78%;
+            border-radius: 8px;
+            background-color: #0056b3;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding: 2%;
+        }
+
+        .bawah {
+            padding-left: 13px;
+            height: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="atas">
+            <input type="text" id="textInput" placeholder="Masukkan teks">
+            <button onclick="tampilkanTeks()">Tampilkan</button>
+        </div>
+        <div class="bawah">
+            <div class="output">
+                <label for="outputText" id="outputText">Output :</label>
+            </div>
+        </div>
+    </div>
+    <script>
+        function tampilkanTeks() {
+            var input = document.getElementById("textInput").value;
+            document.getElementById("outputText").innerText = "Output : Hallo " + input;
+        }
+    </script>
+</body>
+
+</html>
