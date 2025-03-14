@@ -23,4 +23,16 @@ class KodeBuah {
     }
 }
 
-module.exports = KodeBuah;
+function testKodeBuah() {
+    console.log("===== Kode Buah =====");
+    const kodeBuah = new KodeBuah();
+    const daftarBuah = [
+        "Apel", "Aprikot", "Alpukat", "Pisang", "Paprika",
+        "Blackberry", "Ceri", "Kelapa", "Jagung", "Kurma",
+        "Durian", "Anggur", "Melon", "Semangka"
+    ];
+
+    daftarBuah.forEach((buah) => {
+        console.log(`Kode buah untuk ${buah}: ${kodeBuah.getKodeBuah(buah)}`);
+    });
+}
