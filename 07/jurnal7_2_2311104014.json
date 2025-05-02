@@ -1,0 +1,25 @@
+{
+    "teamMember": [
+      {
+        "nim": "2311104014",
+        "firstName": "Farrel I'zaz",
+        "lastName": "Yuwono",
+        "age": 20,
+        "gender": "Male"
+      },
+      {
+        "nim": "2311103080",
+        "firstName": "Nasywa Nur",
+        "lastName": "Shafinna",
+        "age": 18,
+        "gender": "Female"
+      },
+      {
+        "nim": "2311103081",
+        "firstName": "Faradha",
+        "lastName": "Atmariani",
+        "age": 19,
+        "gender":"Female"
+      }
+    ]
+  } 

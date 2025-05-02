@@ -1,0 +1,16 @@
+{
+    "matakuliah": [
+      {
+        "kode": "SE101",
+        "nama": "DPBO"
+      },
+      {
+        "kode": "SE102",
+        "nama": "KPL"
+      },
+      {
+        "kode": "SE103",
+        "nama": "Basis Data"
+      }
+    ]
+  }

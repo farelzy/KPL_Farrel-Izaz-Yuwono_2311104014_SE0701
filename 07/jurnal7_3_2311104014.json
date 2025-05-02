@@ -1,0 +1,23 @@
+{
+    "glossary": {
+      "title": "Data Struktur Glossary",
+      "GlossDiv": {
+        "title": "Tipe Data",
+        "GlossList": {
+          "GlossEntry": {
+            "ID": "TS",
+            "SortAs": "TypeStructure",
+            "GlossTerm": "Tree Structure",
+            "Acronym": "TS",
+            "Abbrev": "StrukturPohon",
+            "GlossDef": {
+              "para": "Struktur data hierarkis yang terdiri dari node dan edge, digunakan untuk representasi hirarki.",
+              "GlossSeeAlso": ["Graph", "Binary Tree"]
+            },
+            "GlossSee": "Tree"
+          }
+        }
+      }
+    }
+  }
+  
