@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GUI Cari Nilai Pangkat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    label, input {
+      display: block;
+      margin: 10px 0;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Hitung Nilai Pangkat</h2>
+
+  <label for="inputA">Masukkan nilai a:</label>
+  <input type="number" id="inputA" />
+
+  <label for="inputB">Masukkan nilai b:</label>
+  <input type="number" id="inputB" />
+
+  <button onclick="hitungPangkat()">Hitung</button>
+
+  <div class="result" id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

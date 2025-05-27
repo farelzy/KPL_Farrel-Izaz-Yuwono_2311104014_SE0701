@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GUI Cari Tanda Bilangan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    label, input, button {
+      display: block;
+      margin: 10px 0;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Cek Tanda Bilangan</h2>
+
+  <label for="inputX">Masukkan nilai x:</label>
+  <input type="number" id="inputX" />
+
+  <button onclick="cekTanda()">Cek</button>
+
+  <div class="result" id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
