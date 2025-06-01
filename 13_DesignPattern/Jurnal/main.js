@@ -1,4 +1,3 @@
-// main.js
 import { PusatDataSingleton } from './PusatDataSingleton.js';
 
 const data1 = PusatDataSingleton.GetDataSingleton();
